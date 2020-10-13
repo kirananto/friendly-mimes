@@ -430,6 +430,11 @@ export const data = [
     "fileType": ".csv"
   },
   {
+    "mime": "csv",
+    "name": "Comma-Separated Values",
+    "fileType": ".csv"
+  },
+  {
     "mime": "application/mac-compactpro",
     "name": "Compact Pro",
     "fileType": ".cpt"
