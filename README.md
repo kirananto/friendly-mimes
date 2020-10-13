@@ -1,6 +1,9 @@
+
 # Friendly Mimes
 
 Returns you friendly Human readable mime types
+
+[![NPM](https://nodei.co/npm/friendly-mimes.png?mini=true)](https://npmjs.org/package/friendly-mimes)
 
 ### To Resolve Mime Type
 Resolves Mime type (eg: text/csv, application/mp4 etc) of the mime to the specific mime. 
