@@ -3428,5 +3428,90 @@ export const data = [
     "mime": "application/vnd.zzazz.deck+xml",
     "name": "Zzazz Deck",
     "fileType": ".zaz"
+  },
+  {
+    "mime": "application/vnd.google-apps.audio",
+    "name": "Google Audio",
+    "fileType": ".vnd.google-apps.audio"
+  },
+  {
+    "mime": "application/vnd.google-apps.document",
+    "name": "Google Docs",
+    "fileType": ".google-apps.document"
+  },
+  {
+    "mime": "application/vnd.google-apps.drive-sdk",
+    "name": "3rd party shortcut",
+    "fileType": ".google-apps.drive-sdk"
+  },
+  {
+    "mime": "application/vnd.google-apps.drawing",
+    "name": "Google Drawing",
+    "fileType": ".google-apps.drawing"
+  },
+  {
+    "mime": "application/vnd.google-apps.file",
+    "name": "Google Drive file",
+    "fileType": ".google-apps.file"
+  },
+  {
+    "mime": "application/vnd.google-apps.folder",
+    "name": "Google Drive folder",
+    "fileType": ".google-apps.folder"
+  },
+  {
+    "mime": "application/vnd.google-apps.form",
+    "name": "Google Forms",
+    "fileType": ".google-apps.form"
+  },
+  {
+    "mime": "application/vnd.google-apps.fusiontable",
+    "name": "Google Fusion Tables",
+    "fileType": ".google-apps.fusiontable"
+  },
+  {
+    "mime": "application/vnd.google-apps.map",
+    "name": "Google My Maps",
+    "fileType": ".google-apps.map"
+  },
+  {
+    "mime": "application/vnd.google-apps.photo",
+    "name": "Google Photo",
+    "fileType": ".google-apps.photo"
+  },
+  {
+    "mime": "application/vnd.google-apps.presentation",
+    "name": "Google Slides",
+    "fileType": ".google-apps.presentation"
+  },
+  {
+    "mime": "application/vnd.google-apps.script",
+    "name": "Google Apps Scripts",
+    "fileType": ".google-apps.script"
+  },
+  {
+    "mime": "application/vnd.google-apps.shortcut",
+    "name": "Shortcut",
+    "fileType": ".google-apps.shortcut"
+  },
+  {
+    "mime": "application/vnd.google-apps.site",
+    "name": "Google Sites",
+    "fileType": ".google-apps.site"
+  },
+  {
+    "mime": "application/vnd.google-apps.spreadsheet",
+    "name": "Google Sheets",
+    "fileType": ".google-apps.spreadsheet"
+  },
+  {
+    "mime": "application/vnd.google-apps.unknown",
+    "name": "Google Unknown File",
+    "fileType": ".google-apps.unknown"
+  },
+  {
+    "mime": "application/vnd.google-apps.video",
+    "name": "Google VIdeo",
+    "fileType": ".google-apps.video"
   }
 ]
