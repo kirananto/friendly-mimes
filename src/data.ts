@@ -1645,6 +1645,11 @@ export const data = [
     "fileType": ".exe"
   },
   {
+    "mime": "application/x-msdos-program",
+    "name": "Microsoft Application",
+    "fileType": ".exe"
+  },
+  {
     "mime": "application/vnd.ms-artgalry",
     "name": "Microsoft Artgalry",
     "fileType": ".cil"
