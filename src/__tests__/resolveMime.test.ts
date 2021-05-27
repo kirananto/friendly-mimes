@@ -1,5 +1,5 @@
-import { resolveMime } from '../index';
+import { resolveMime } from "../index";
 
-test('resolveMime', () => {
-  expect(resolveMime('application/mp4').fileType).toBe('.mp4');
+test("resolveMime", () => {
+  expect(resolveMime("application/mp4").fileType).toBe(".mp4");
 });
