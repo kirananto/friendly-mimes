@@ -3516,7 +3516,12 @@ export const data = [
   },
   {
     "mime": "application/vnd.google-apps.video",
-    "name": "Google VIdeo",
+    "name": "Google Video",
+    "fileType": ".google-apps.video"
+  },
+    {
+    "mime": "application/x-zip-compressed",
+    "name": "Compressed Archive (zip)",
     "fileType": ".google-apps.video"
   }
 ];
