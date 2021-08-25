@@ -3522,6 +3522,6 @@ export const data = [
     {
     "mime": "application/x-zip-compressed",
     "name": "Compressed Archive (zip)",
-    "fileType": ".google-apps.video"
+    "fileType": ".zip"
   }
 ];
