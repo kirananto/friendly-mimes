@@ -3523,5 +3523,10 @@ export const data = [
     "mime": "text/x-python",
     "name": "Python",
     "fileType": ".py"
+  },
+  {
+    "mime": "application/x-zip-compressed",
+    "name": "Compressed Archive (zip)",
+    "fileType": ".zip"
   }
 ];
