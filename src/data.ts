@@ -3519,7 +3519,12 @@ export const data = [
     "name": "Google Video",
     "fileType": ".google-apps.video"
   },
-    {
+  {
+    "mime": "text/x-python",
+    "name": "Python",
+    "fileType": ".py"
+  },
+  {
     "mime": "application/x-zip-compressed",
     "name": "Compressed Archive (zip)",
     "fileType": ".zip"
