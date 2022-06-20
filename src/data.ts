@@ -704,4 +704,4 @@ application/vnd.google-apps.spreadsheet,Google Sheets,.google-apps.spreadsheet
 application/vnd.google-apps.unknown,Google Unknown File,.google-apps.unknown
 application/vnd.google-apps.video,Google Video,.google-apps.video
 text/x-python,Python,.py
-application/x-zip-compressed,Compressed Archive (zip),.zip`
+application/x-zip-compressed,Compressed Archive (zip),.zip`;
