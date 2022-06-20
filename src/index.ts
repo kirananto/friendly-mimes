@@ -1,4 +1,14 @@
-import { data } from "./data";
+// import { data } from "./data";
+import dataCSV from './data'
+
+const data = dataCSV.split('\n').filter((_, index) => index !== 0).map(row => {
+  const cols = row.split(',')
+  return {
+    mime: cols[0],
+    name: cols[1],
+    fileType: cols[2],
+  }
+})
 
 interface DataInterface {
   mime: string;
