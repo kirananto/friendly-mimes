@@ -694,6 +694,7 @@ application/vnd.google-apps.file,Google Drive file,.google-apps.file
 application/vnd.google-apps.folder,Google Drive folder,.google-apps.folder
 application/vnd.google-apps.form,Google Forms,.google-apps.form
 application/vnd.google-apps.fusiontable,Google Fusion Tables,.google-apps.fusiontable
+application/vnd.google-apps.jam,Google Jamboard,.google-apps.jam
 application/vnd.google-apps.map,Google My Maps,.google-apps.map
 application/vnd.google-apps.photo,Google Photo,.google-apps.photo
 application/vnd.google-apps.presentation,Google Slides,.google-apps.presentation
