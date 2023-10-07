@@ -405,6 +405,7 @@ application/vnd.mophun.certificate,Mophun Certificate,.mpc
 application/vnd.mophun.application,Mophun VM,.mpn
 video/mj2,Motion JPEG 2000,.mj2
 audio/mpeg,MPEG Audio,.mpga
+audio/mpeg,MPEG Audio,.mp3
 video/vnd.mpegurl,MPEG Url,.mxu
 video/mpeg,MPEG Video,.mpeg
 application/mp21,MPEG-21,.m21
