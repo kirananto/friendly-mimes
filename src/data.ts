@@ -236,6 +236,7 @@ application/vnd.ibm.secure-container,IBM Electronic Media Management System - Se
 text/calendar,iCalendar,.ics
 application/vnd.iccprofile,ICC profile,.icc
 image/x-icon,Icon Image,.ico
+image/vnd.microsoft.icon,Icon Image,.ico
 application/vnd.igloader,igLoader,.igl
 image/ief,Image Exchange Format,.ief
 application/vnd.immervision-ivp,ImmerVision PURE Players,.ivp
