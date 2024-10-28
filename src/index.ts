@@ -1,22 +1,40 @@
-// import { data } from "./data";
 import dataCSV from "./data";
 
-const data = dataCSV
+
+
+const dataArray: DataInterface[] = [];
+const mimeMap = new Map<string, DataInterface>();
+const fileTypeMap = new Map<string, DataInterface>();
+
+dataCSV
   .split("\n")
-  .filter((_, index) => index !== 0)
-  .map((row) => {
+  .slice(1)
+  .forEach((row) => {
     const cols = row.split(",");
-    return {
-      mime: cols[0],
-      name: cols[1],
-      fileType: cols[2]
-    };
+    if (cols.length >= 3) {
+      const [mime, name, fileType] = cols;
+      const item: DataInterface = {
+        mime,
+        name,
+        fileType,
+        nameLowerCase: name.toLowerCase(),
+      };
+      dataArray.push(item);
+      if (!mimeMap.has(mime.toLowerCase())) {
+        mimeMap.set(mime.toLowerCase(), item);
+      }
+      if (!fileTypeMap.has(fileType.toLowerCase())) {
+        fileTypeMap.set(fileType.toLowerCase(), item);
+      }
+    }
   });
+
 
 interface DataInterface {
   mime: string;
   name: string;
   fileType: string;
+  nameLowerCase: string;
 }
 /**
  * Resolves Mime type (eg: text/csv, application/mp4 etc) of the mime to the specific mime.
@@ -24,7 +42,7 @@ interface DataInterface {
  * @returns The resolved item.
  */
 export const resolveMime = (mime: string): DataInterface => {
-  const item = data.filter((filterItem) => filterItem.mime.toLowerCase() === mime.toLowerCase())[0];
+  const item = mimeMap.get(mime.toLowerCase());
   if (item) {
     return item;
   }
@@ -39,9 +57,7 @@ export const resolveMime = (mime: string): DataInterface => {
  * @returns The resolved item.
  */
 export const resolveFileType = (fileType: string): DataInterface => {
-  const item = data.filter(
-    (filterItem) => filterItem.fileType.toLowerCase() === fileType.toLowerCase()
-  )[0];
+  const item = fileTypeMap.get(fileType.toLowerCase());
   if (item) {
     return item;
   }
@@ -55,10 +71,11 @@ export const resolveFileType = (fileType: string): DataInterface => {
  * @returns Array of related items.
  */
 export const resolveName = (name: string): DataInterface[] => {
-  const items = data.filter((filterItem) =>
-    filterItem.name.toLowerCase().includes(name.toLowerCase())
+  const nameLower = name.toLowerCase();
+  const items = dataArray.filter((item) =>
+    item.nameLowerCase.includes(nameLower)
   );
-  if (items?.length > 0) {
+  if (items.length > 0) {
     return items;
   }
   throw new Error(`Name (${name}) doesn\'t exist in our collection, please raise a Request to add the same.\n
