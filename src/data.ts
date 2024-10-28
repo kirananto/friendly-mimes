@@ -449,21 +449,35 @@ application/vnd.yamaha.openscoreformat,Open Score Format,.osf
 audio/webm,Open Web Media Project - Audio,.weba
 video/webm,Open Web Media Project - Video,.webm
 application/vnd.oasis.opendocument.chart,OpenDocument Chart,.odc
+application/x-vnd.oasis.opendocument.chart,OpenDocument Chart,.odc
 application/vnd.oasis.opendocument.chart-template,OpenDocument Chart Template,.otc
+application/x-vnd.oasis.opendocument.chart-template,OpenDocument Chart Template,.otc
 application/vnd.oasis.opendocument.database,OpenDocument Database,.odb
 application/vnd.oasis.opendocument.formula,OpenDocument Formula,.odf
+application/x-vnd.oasis.opendocument.formula,OpenDocument Formula,.odf
 application/vnd.oasis.opendocument.formula-template,OpenDocument Formula Template,.odft
+application/x-vnd.oasis.opendocument.formula-template,OpenDocument Formula Template,.odft
 application/vnd.oasis.opendocument.graphics,OpenDocument Graphics,.odg
+application/x-vnd.oasis.opendocument.graphics,OpenDocument Graphics,.odg
 application/vnd.oasis.opendocument.graphics-template,OpenDocument Graphics Template,.otg
+application/x-vnd.oasis.opendocument.graphics-template,OpenDocument Graphics Template,.otg
 application/vnd.oasis.opendocument.image,OpenDocument Image,.odi
+application/x-vnd.oasis.opendocument.image,OpenDocument Image,.odi
 application/vnd.oasis.opendocument.image-template,OpenDocument Image Template,.oti
+application/x-vnd.oasis.opendocument.image-template,OpenDocument Image Template,.oti
 application/vnd.oasis.opendocument.presentation,OpenDocument Presentation,.odp
+application/x-vnd.oasis.opendocument.presentation,OpenDocument Presentation,.odp
 application/vnd.oasis.opendocument.presentation-template,OpenDocument Presentation Template,.otp
+application/x-vnd.oasis.opendocument.presentation-template,OpenDocument Presentation Template,.otp
 application/vnd.oasis.opendocument.spreadsheet,OpenDocument Spreadsheet,.ods
+application/x-vnd.oasis.opendocument.spreadsheet,OpenDocument Spreadsheet,.ods
 application/vnd.oasis.opendocument.spreadsheet-template,OpenDocument Spreadsheet Template,.ots
+application/x-vnd.oasis.opendocument.spreadsheet-template,OpenDocument Spreadsheet Template,.ots
 application/vnd.oasis.opendocument.text,OpenDocument Text,.odt
+application/x-vnd.oasis.opendocument.text,OpenDocument Text,.odt
 application/vnd.oasis.opendocument.text-master,OpenDocument Text Master,.odm
 application/vnd.oasis.opendocument.text-template,OpenDocument Text Template,.ott
+application/x-vnd.oasis.opendocument.text-template,OpenDocument Text Template,.ott
 image/ktx,OpenGL Textures (KTX),.ktx
 application/vnd.sun.xml.calc,OpenOffice - Calc (Spreadsheet),.sxc
 application/vnd.sun.xml.calc.template,OpenOffice - Calc Template (Spreadsheet),.stc
