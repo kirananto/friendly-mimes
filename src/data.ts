@@ -706,4 +706,7 @@ application/vnd.google-apps.unknown,Google Unknown File,.google-apps.unknown
 application/vnd.google-apps.video,Google Video,.google-apps.video
 text/x-python,Python,.py
 application/x-zip-compressed,Compressed Archive (zip),.zip
-application/vnd.ms-outlook,Outlook mail message,.msg`;
+application/vnd.ms-outlook,Outlook mail message,.msg
+application/x-iwork-pages-sffpages,Apple Pages,.pages
+application/x-iwork-keynote-sffkey,Apple Keynote,.key
+application/x-iwork-numbers-sffnumbers,Apple Numbers,.numbers`;
