@@ -47,7 +47,7 @@ export const resolveMime = (mime: string): DataInterface => {
     return item;
   }
   throw new Error(`
-    Mimetype (${mime}) doesn\'t exist in our collection, please raise a Request to add the same.\n
+    Mimetype (${mime}) doesn't exist in our collection, please raise a Request to add the same.\n
     Please add it to - https://github.com/kirananto/friendly-mimes/blob/master/src/data.ts `);
 };
 
@@ -61,7 +61,7 @@ export const resolveFileType = (fileType: string): DataInterface => {
   if (item) {
     return item;
   }
-  throw new Error(`FileType (${fileType}) doesn\'t exist in our collection, please raise a Request to add the same.\n
+  throw new Error(`FileType (${fileType}) doesn't exist in our collection, please raise a Request to add the same.\n
     Please add it to - https://github.com/kirananto/friendly-mimes/blob/master/src/data.ts`);
 };
 
@@ -78,7 +78,7 @@ export const resolveName = (name: string): DataInterface[] => {
   if (items.length > 0) {
     return items;
   }
-  throw new Error(`Name (${name}) doesn\'t exist in our collection, please raise a Request to add the same.\n
+  throw new Error(`Name (${name}) doesn't exist in our collection, please raise a Request to add the same.\n
     Please add it to - https://github.com/kirananto/friendly-mimes/blob/master/src/data.ts`);
 };
 

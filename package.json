@@ -8,7 +8,7 @@
     "test": "vitest run",
     "build": "tsc",
     "format": "prettier --print-width 100 --quote-props preserve --trailing-comma none --write \"src/**/*.ts\"",
-    "lint": "tslint -p tsconfig.json",
+    "lint": "oxlint",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -35,8 +35,7 @@
   "devDependencies": {
     "codecov": "3.8.2",
     "prettier": "2.6.0",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "1.18.0",
+    "oxlint": "0.10.3",
     "typescript": "4.7.4"
   },
   "files": [
