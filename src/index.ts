@@ -1,7 +1,5 @@
 import dataCSV from "./data";
 
-
-
 const dataArray: DataInterface[] = [];
 const mimeMap = new Map<string, DataInterface>();
 const fileTypeMap = new Map<string, DataInterface>();
@@ -17,7 +15,7 @@ dataCSV
         mime,
         name,
         fileType,
-        nameLowerCase: name.toLowerCase(),
+        nameLowerCase: name.toLowerCase()
       };
       dataArray.push(item);
       if (!mimeMap.has(mime.toLowerCase())) {
@@ -28,7 +26,6 @@ dataCSV
       }
     }
   });
-
 
 interface DataInterface {
   mime: string;
@@ -72,9 +69,7 @@ export const resolveFileType = (fileType: string): DataInterface => {
  */
 export const resolveName = (name: string): DataInterface[] => {
   const nameLower = name.toLowerCase();
-  const items = dataArray.filter((item) =>
-    item.nameLowerCase.includes(nameLower)
-  );
+  const items = dataArray.filter((item) => item.nameLowerCase.includes(nameLower));
   if (items.length > 0) {
     return items;
   }
